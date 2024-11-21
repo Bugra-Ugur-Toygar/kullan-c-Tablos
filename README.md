@@ -1,6 +1,7 @@
 # kullaniciTablos
 Patika kullanıcı tabloları
-. Kullanıcının adını ve soyadını girebileceği iki metin kutusu.
+
+1. Kullanıcının adını ve soyadını girebileceği iki metin kutusu.
 
 
 2. Kullanıcının e-posta adresini girebileceği bir e-posta giriş alanı.
