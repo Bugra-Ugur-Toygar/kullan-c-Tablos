@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>User Information Form</h1>
+    <form action="/submit" method="post">
+      <!-- Ad ve Soyad -->
+      <label for="firstName">First Name:</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="Please enter your first name"
+        required
+      />
+      <br /><br />
+
+      <label for="surName">SurName:</label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        placeholder="Please enter your surname"
+        required
+      />
+      <br /><br />
+
+      <!-- E-posta -->
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Please enter your e-mail address"
+        required
+      />
+      <br /><br />
+
+      <!-- Parola -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Please enter your password"
+        required
+      />
+      <br /><br />
+
+      <!-- Cinsiyet -->
+      <label>Sex:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <br /><br />
+
+      <!-- Favori Meyve -->
+      <label for="favoriteFruit">Fav Fruits:</label>
+      <select id="favoriteFruit" name="favoriteFruit">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="orange">Orange</option>
+        <option value="grape">Grape</option>
+      </select>
+      <br /><br />
+
+      <!-- Mesaj -->
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        placeholder="Please enter your message here"
+      ></textarea>
+      <br /><br />
+
+      <!-- Gönder Butonu -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
